@@ -93,7 +93,7 @@ $(document).ready(function () {
   });
   //----------------------------------------------------
   // 1. Configuración de animaciones de Scroll
-    window.sr = ScrollReveal({ reset: true });
+  /*  window.sr = ScrollReveal({ reset: true });
 
     sr.reveal('.reveal', {
         duration: 1000,   // Un segundo de duración
@@ -117,6 +117,7 @@ $(document).ready(function () {
             });
         }
     });
+    */
 });
 
 
