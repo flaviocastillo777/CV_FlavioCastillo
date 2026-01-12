@@ -8,11 +8,17 @@ Currículum Vitae de Flavio Castillo.
 - Estudios.
 - Contacto.
 
-En la barra de navegación, que se resalta al pasar el Mouse por encima.
+Éstas, tienen links en la barra de navegación, que se resaltan al pasar el Mouse por encima.
+
 Contiene botón para cambio de Color de fondo, al azar.
+
 Cada sección está enmarcada en una caja.
+
 Contiene formulario que envía un correo a la pagina personal.
+
 Contiene imagen de WhatsApp con link hacia la Aplicacion.
+
 Contiene imagen de Instagram con link hacia la Apicacion.
+
 Contiene enlace a correo personal.
 
