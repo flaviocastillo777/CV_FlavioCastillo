@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavio Castillo Pérez</title>
+    <!-- Código por Flavio Castillo y librerías públicas-->
+    <!-- CV -->
+    <!-- Clase del 13 de Enero de 2026 , JQuery c/ Bootstrap, Carrusel, incluye validacion de formulario
+     y envío hacia un Mail-->
+
+    <!-- cargo librerias CSS bootstrap   -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- cambio mis estilos -->
+    <link rel="stylesheet" href="./assets/css/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- para enviar un mail desde el formulario con EMailJS-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("gDGN9kR-PdmAP7nUx"); // Public Key
+        })();
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <div class="text-center">
+            <button id="btnCambiar" class="btn btn-primary btn-lg shadow">
+                Aquí Cambia Color
+            </button>
+        </div>
+
+        <div>
+            <nav class="navbar navbar-expand-lg  border-bottom ColorNavbar ">
+                <img class="img-fluid rounded" src="./assets/img/foto1.jpg" alt="foto flavio" width="130" height="80">
+                <div class="container">
+                    <a class="navbar-brand text-light negrita" href="#">Flavio Castillo Pérez</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="navMain" class="collapse navbar-collapse">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link text-light active" href="#inicio">Resumen</a></li>
+                            <li class="nav-item"><a class="nav-link text-light" href="#trabajos">Historia</a></li>
+                            <li class="nav-item"><a class="nav-link text-light" href="#formacion">Estudios</a></li>
+                            <li class="nav-item"><a class="nav-link text-light" href="#contacto">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+
+        <div class="container">
+            <h1 class="text-primary text-center">Currículum Vitae</h1>
+        </div>
+    </header>
+
+    <section id="inicio" class="reveal">
+        <h2>Resumen</h2>
+        <p class="ejemplocaja">Flavio Alexis Castillo Pérez.<br>
+            10.931.887-6. <br>
+            Jefe de Proyectos, Analista Desarrollador, Analista Funcional, Analista de Datos y Procesos, Team Leader,
+            Administrador de Empresas, Marketing Digital, Administrador de Recursos Humanos y Financieros.<br>
+            EXPERTO UNIX / Linux, COBOL, SQL, EXPERTO EN MEDIOS DE PAGO. AIX, Ultrix, Xenix, Sco, MicroFocus, RMCobol
+            85, NCR, VAX, VMS, ALPHA, IBM OS/390,400, Roscoe, BATCH, CICs, JCLs, DCLs, Shells, etc.<br>
+            BASES DE DATOS: ORACLE, SQL Server, Sybase, DB2, Informix, Datacom, RDB, Unify, etc <br>
+            CONOCIMIENTOS en HTML5, JavaScript, JQuery, Python, C, JAVA, CMMI, UML, etc <br>
+            Empresas Financieras, RETAIL, BANCA, AFPs, Exportadoras, Cajas de Compensación, Clínicas de Salud, Gobierno
+            de Chile, etc <br>
+        </p>
+
+    </section>
+
+    <section id="trabajos" class="reveal">
+        <h2>Experiencia Laboral</h2>
+        <p class="claseEstudios">
+            -2025<br>
+            Cargo: Consultor Informático independiente. Analista de Procesos y Datos.<br><br>
+
+            -Marzo 2024 a Septiembre 2024<br>
+            Cargo: Consultor Senior, Experto COBOL /SQL / Informix / Unix / Linux.<br>
+            Descripción del Cargo: Levantamiento de Sistemas Legados, Análisis de DATOS y PROCESOS en IPS (Instituto de
+            Previsión Social, Gobierno de Chile), para luego, hacer un cambio de Tecnología.<br>
+            Plataformas: COBOL, SQL, Shell, Linux, Unix, Informix.<br><br>
+
+            -2020 a la 2024<br>
+            Cargo: Consultor Informático independiente. Experto COBOL / UNIX / Linux. Medios de Pago.<br><br>
+
+            -Noviembre 2019-Febrero 2020<br>
+            Cargo: Systems Engineer.<br>
+            Descripción del Cargo: Experto en Medios de Pago. Resolución de Incidencias en la Producción, mediante
+            Análisis de Datos y Procesos. Tarjeta MACH Banco BCI , Tarjeta TENPO.<br>
+            Plataformas: COBOL, Unix, Shell, Oracle.<br><br>
+
+            -Enero 2014-Diciembre 2019<br>
+            Cargo: GERENTE de CLÍNICA DENTAL Orthodontic Chile Ltda<br>
+            Descripción del Cargo: Administración General de la Empresa, Administración y Análisis de Recursos Humanos,
+            Financieros y Físicos. 15 personas bajo supervisión.<br><br>
+
+            -Febrero 2013-Diciembre 2013<br>
+            Cargo: Analista Desarrollador.<br>
+            Descripción del Cargo: Mantenimiento de Software de la Tarjeta de Crédito Ripley.<br>
+            Plataformas: COBOL, Unix, Shell, Oracle.<br><br>
+
+            -Abril 2012-Enero 2013<br>
+            Cargo: Analista Funcional.<br>
+            Descripción del Cargo: Levantamiento de nuevos Requerimientos en el Área de la Bolsa de Comercio Santander.
+            (ISBAN).<br><br>
+
+            -Diciembre 2011-Marzo 2012<br>
+            Cargo: Analista Desarrollador.<br>
+            Descripción del Cargo: Mantenimiento de Software Sistema de Crédito Banco Bice.<br>
+            Plataformas: COBOL, VMS, DCL, Oracle.<br><br>
+
+            -Febrero 2011-Noviembre 2011<br>
+            Cargo: Analista Desarrollador.<br>
+            Descripción del Cargo: Desarrollo del Clearing Tarjeta Mastercard en Falabella Argentina.<br>
+            Plataformas: COBOL, VMS, UNIX , Linux y C.<br><br>
+
+            -Mayo 2009- Enero 2011<br>
+            Cargo: Jefe de Proyectos y Analista Funcional.<br>
+            Descripción del Cargo: Levantamiento de Requerimientos a Usuarios del Área de Cobranza Prejudicial y
+            Judicial en Caja de Compensación 18 de Septiembre. 3 Desarrolladores a cargo.<br>
+            Plataformas: COBOL, UNIX, Linux, SQL Server y ASP .Net.<br><br>
+
+            -Abril de 2009<br>
+            Cargo: Analista Desarrollador.<br>
+            Descripción del Cargo: Mantención Sistema de Crédito en BANCO NOVA.<br>
+            Plataformas: COBOL Host : IBM OS/390. ROSCOE, Endevor, Datacom, JCL, ALPHA/VAX VMS. COBOL Embebido/ Oracle
+            RDB, SQL .Interfaces a TANDEM. COBOL IBM AS/400.<br><br>
+
+            -Octubre 2006-Marzo 2009<br>
+            Cargo: Analista Desarrolllador.<br>
+            Descripción del Cargo: Mantención de Sistemas y nuevos Proyectos para Bancos BCI y Banco Nova.<br>
+            Plataformas: COBOL, Host IBM OS/390. COBOL Batch, Herramientas IBM : JCLs, Roscoe, CICS, Endevor /
+            Changeman, Datacom, Db2, TSO, ISPF, IBM AS/400.<br><br>
+
+            -Marzo 2006-Septiembre de 2006<br>
+            Cargo: Analista Desarrollador.(TCS Consultant).<br>
+            Descripción del Cargo: Mantención a Sistemas de Tarjetas de Crédito en Transbank.<br>
+            Plataformas: COBOL, Unix, Shell, Oracle.<br><br>
+
+            -Octubre 2005- Enero 2006<br>
+            Cargo: Analista Desarrollador.<br>
+            Descripción del cargo: Levantamiento e Implantación Tarjeta CMR Falabella / SODIMAC COLOMBIA.<br>
+            Plataformas: COBOL, VMS, DCL, Oracle.<br><br>
+
+            -Junio 2005-Septiembre 2005<br>
+            Cargo: Analista Funcional.<br>
+            Descripción del cargo: Levantamiento de Requerimientos en Servipag.<br>
+            Plataformas: COBOL.<br><br>
+
+            -Febrero 2005-Mayo 2005<br>
+            Cargo: Analista Desarrollador.<br>
+            Descripción del cargo: Mantención de Sistema de Tarjetas de Crédito en Banco de Chile.<br>
+            Plataformas: COBOL, Unix, Shell, Oracle.<br><br>
+
+            -Octubre de 2004-Enero de 2005<br>
+            Cargo: Analista Desarrollador.<br>
+            Descripción del cargo: Mantención de Sistema de Tarjetas de Crédito en Transbank.<br>
+            Plataformas: COBOL, Unix, Shell, Oracle.<br><br>
+
+            -Febrero 2004-Septiembre 2004<br>
+            Cargo: Analista Desarrollador.<br>
+            Descripción del Cargo: Mantenimiento de Software de la Tarjeta de Crédito Ripley.<br>
+            Plataformas: COBOL, Unix, Shell, Oracle.<br><br>
+
+            -Septiembre 2003-Enero 2004<br>
+            Cargo: Analista Desarrollador.<br>
+            Descripción del cargo: Mantención de Sistema de Tarjetas de Crédito en Banco de Chile.<br>
+            Plataformas: COBOL, Unix, Shell, Oracle.<br><br>
+
+            -Febrero 2003-Agosto 2003<br>
+            Cargo: Analista Desarrollador.<br>
+            Descripción del cargo: Mantención de Sistema de Tarjetas de Crédito en Banco Bice.<br>
+            Plataformas: COBOL, VMS, DCL, Oracle, RDB.<br><br>
+
+            -Febrero 2002-Enero 2003<br>
+            Cargo: Analista Desarrollador.<br>
+            Descripción del cargo: Participación en Proyecto Multifondos AFP Provida.<br>
+            Plataformas: COBOL, VMS, DCL, Oracle.<br><br>
+
+            -Febrero 2001-Enero 2002<br>
+            Cargo: Analista Desarrollador.<br>
+            Descripción del cargo: Nuevos Desarrollos y mantenciones en Sistemas de Comercio exterior en Banco Bice.<br>
+            Plataformas: COBOL, DUNGA, VMS, DCL, Oracle, RDB<br><br>
+
+            -Enero 1999-Enero 2001<br>
+            Cargo: Analista Desarrollador y Team Leader experto en Medios de Pago.<br>
+            Descripción del cargo: Nuevos Desarrollos tales como: Proyecto CONTADO 3 CUOTAS, CUOTAS COMERCIO, PAGO EN
+            MUNICIPALIDADES en TRANSBANK S.A.<br>
+            Plataformas: COBOL, VMS, DCL, Oracle, UNIX.<br><br>
+
+            -Mayo 1998-Diciembre 1998<br>
+            Cargo: Analista Desarrollador.<br>
+            Descripción del cargo: Cambio en acceso a Bases de Datos en Compilador COBOL en Banco Galicia, Buenos Aires,
+            Argentina.<br>
+            Plataformas: COBOL, C, Unix, Shell, Oracle.<br><br>
+
+            -Febrero 1998-Abril 1998<br>
+            Cargo: Analista Desarrollador.<br>
+            Descripción del cargo: Mantención de Sistema de Crédito en Banco de Chile.<br>
+            Plataformas: COBOL, C, Unix, Shell, Oracle, VMS.<br><br>
+
+            -Marzo 1997-Diciembre 1997<br>
+            Cargo: Analista Desarrollador.<br>
+            Descripción del cargo: Mantención de Sistema de Fruta en United Trading Company (UTC).<br>
+            Plataformas: COBOL(RMCOBOL), Unix, Shell.<br><br>
+
+            Abril 1995- Diciembre 1996<br>
+            Cargo: Jefe de Proyectos, Analista Funcional, Desarrollador.<br>
+            Descripción del cargo: Mantención de Sistemas de Fruta y Remuneraciones en Frutexport S.A.<br>
+            Plataformas: COBOL(RMCOBOL 85), Unix (AIX), Shell, Bases de datos UNIFY.<br><br>
+
+        </p>
+    </section>
+
+    <section id="formacion" class="reveal">
+        <h2>Formación Académica</h2>
+        <p class="claseEstudios">
+            - Diplomado en Gestión de Servicios al Cliente.<br>
+            Universidad Adolfo Ibañez.<br>
+            - Ingeniería en Informática.<br>
+            Universidad de Tarapacá – ARICA.<br>
+            - Cuarto año de Ingeniería en Gestión.<br>
+            Universidad Andrés Bello.
+        </p>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades Destacadas</h2>
+        <p class="claseEstudios">
+            PROACTIVO, Autogestión, Analítico, Trabajo bajo presión, Trabajo en Equipo, LÍDER de equipos de trabajo,
+            Responsable. <br>
+            Dominio del Inglés y Portugués, Nivel Medio.<br>
+            Disponibilidad para Viajar dentro y fuera de Chile.
+        </p>
+    </section>
+
+    <section id="contacto" class="container my-5 reveal">
+        <h2 class="mb-4">Contáctame Aquí</h2>
+        <form id="miFormulario">
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <label for="txtNombre" class="form-label">Nombre *</label>
+                    <input type="text" id="InNombre" class="form-control" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="txtMail" class="form-label">Email *</label>
+                    <input type="email" id="InEmail" class="form-control" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="txtEdad" class="form-label">Edad *</label>
+                    <input type="number" id="InEdad" class="form-control" required>
+                </div>
+                <div class="col-12">
+                    <label for="txtMensaje" class="form-label">Mensaje *</label>
+                    <textarea id="InMensaje" class="form-control" rows="4" required></textarea>
+
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="acepto" required>
+                        <label class="form-check-label" for="acepto">Acepto la política de datos</label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" id="BotonEnviar" class="btn btn-primary">Enviar</button>
+                    <button type="reset" class="btn btn-outline-secondary">Limpiar</button>
+                </div>
+            </div>
+        </form>
+
+
+        <p>
+        <div class="text-center">Flavio Castillo P.
+        </div>
+        <div class="text-center">
+            WhatsApp: +569 4060 0250
+        </div>
+        <div class="text-center">
+            <a href="mailto:flaviocastillo@gmail.com" target="_blank">flaviocastillo@gmail.com</a>
+        </div>
+        </p>
+
+        </div>
+        <div class="text-center">
+            <a href="https://web.whatsapp.com/send?phone=56940600250&amp;text=" target="_blank" rel="nofollow noopener"
+                aria-label="Whatsapp" class="Whatsapp-channel chaty-link chaty-whatsapp-channel pos-left has-on-hover"
+                data-form="chaty-form-0-Whatsapp" data-hover="WhatsApp"
+                data-text="&lt;p&gt;Escr&amp;iacute;benos&amp;nbsp;&lt;/p&gt;"><span
+                    class="chaty-icon channel-icon-Whatsapp"><span class="chaty-svg"><svg width="39" height="39"
+                            viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle class="color-element" cx="19.4395" cy="19.4395" r="19.4395" fill="#49E670"></circle>
+                            <path
+                                d="M12.9821 10.1115C12.7029 10.7767 11.5862 11.442 10.7486 11.575C10.1902 11.7081 9.35269 11.8411 6.84003 10.7767C3.48981 9.44628 1.39593 6.25317 1.25634 6.12012C1.11674 5.85403 2.13001e-06 4.39053 2.13001e-06 2.92702C2.13001e-06 1.46351 0.83755 0.665231 1.11673 0.399139C1.39592 0.133046 1.8147 1.01506e-06 2.23348 1.01506e-06C2.37307 1.01506e-06 2.51267 1.01506e-06 2.65226 1.01506e-06C2.93144 1.01506e-06 3.21063 -2.02219e-06 3.35022 0.532183C3.62941 1.19741 4.32736 2.66092 4.32736 2.79397C4.46696 2.92702 4.46696 3.19311 4.32736 3.32616C4.18777 3.59225 4.18777 3.59224 3.90858 3.85834C3.76899 3.99138 3.6294 4.12443 3.48981 4.39052C3.35022 4.52357 3.21063 4.78966 3.35022 5.05576C3.48981 5.32185 4.18777 6.38622 5.16491 7.18449C6.42125 8.24886 7.39839 8.51496 7.81717 8.78105C8.09636 8.91409 8.37554 8.9141 8.65472 8.648C8.93391 8.38191 9.21309 7.98277 9.49228 7.58363C9.77146 7.31754 10.0507 7.1845 10.3298 7.31754C10.609 7.45059 12.2841 8.11582 12.5633 8.38191C12.8425 8.51496 13.1217 8.648 13.1217 8.78105C13.1217 8.78105 13.1217 9.44628 12.9821 10.1115Z"
+                                transform="translate(12.9597 12.9597)" fill="#FAFAFA"></path>
+                            <path
+                                d="M0.196998 23.295L0.131434 23.4862L0.323216 23.4223L5.52771 21.6875C7.4273 22.8471 9.47325 23.4274 11.6637 23.4274C18.134 23.4274 23.4274 18.134 23.4274 11.6637C23.4274 5.19344 18.134 -0.1 11.6637 -0.1C5.19344 -0.1 -0.1 5.19344 -0.1 11.6637C-0.1 13.9996 0.624492 16.3352 1.93021 18.2398L0.196998 23.295ZM5.87658 19.8847L5.84025 19.8665L5.80154 19.8788L2.78138 20.8398L3.73978 17.9646L3.75932 17.906L3.71562 17.8623L3.43104 17.5777C2.27704 15.8437 1.55796 13.8245 1.55796 11.6637C1.55796 6.03288 6.03288 1.55796 11.6637 1.55796C17.2945 1.55796 21.7695 6.03288 21.7695 11.6637C21.7695 17.2945 17.2945 21.7695 11.6637 21.7695C9.64222 21.7695 7.76778 21.1921 6.18227 20.039L6.17557 20.0342L6.16817 20.0305L5.87658 19.8847Z"
+                                transform="translate(7.7758 7.77582)" fill="white" stroke="white" stroke-width="0.2">
+                            </path>
+                        </svg></span></span><span class="on-hover-text">
+                </span></a>
+
+            <a href="https://www.instagram.com/flavioalexiscastillo/" target="_blank">
+                <img src="./assets/img/instagram2.jpg" class="img-fluid" alt="Instagram">
+            </a>
+        </div>
+    </section>
+
+    <footer class="border-top py-4 mt-5 ColorFooter">
+        <div class="container d-flex flex-column flex-md-row justify-content-between">
+            <span>Todos los Derechos Reservados © 2026. Flavio Castillo P.</span>
+            <span>
+                <a href="#" class="link-secondary me-3 text-decoration-none text-light">Privacidad</a>
+                <a href="#" class="link-secondary text-decoration-none text-light">Términos</a>
+            </span>
+        </div>
+    </footer>
+
+    <!-- CDN JavaScript de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- CDN jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- JS Local -->
+    <script src="./assets/js/script.js"></script>
+    <!-- mensaje de alerta formulario -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
+</html>
