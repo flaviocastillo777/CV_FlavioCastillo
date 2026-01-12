@@ -1,6 +1,6 @@
 # CV_FlavioCastillo
 Currículum Vitae de Flavio Castillo.
-[Curriculum Flavio Castillo](https://github.com/flaviocastillo777/CV_FlavioCastillo/index.html)
+[Curriculum Flavio Castillo](https://github.com/flaviocastillo777/CV_FlavioCastillo/blob/main/index.html)
 ## Creado el 12 de Enero de 2026.
 ## Contiene secciones:
 - Resumen.
