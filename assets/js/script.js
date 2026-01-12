@@ -92,32 +92,6 @@ $(document).ready(function () {
     $(this).text('Aquí Cambia Color');
   });
   //----------------------------------------------------
-  // 1. Configuración de animaciones de Scroll
-  /*  window.sr = ScrollReveal({ reset: true });
-
-    sr.reveal('.reveal', {
-        duration: 1000,   // Un segundo de duración
-        distance: '50px', // Se desplaza 50px al aparecer
-        origin: 'bottom', // Viene desde abajo
-        delay: 200,       // Pequeño retraso para que se sienta fluido
-        scale: 0.85,      // Empieza un poco más pequeño (efecto pop)
-        easing: 'cubic-bezier(0.5, 0, 0, 1)' // Movimiento elegante
-    });
-
-    // 2. Scroll Suave con jQuery (Smooth Scroll)
-    $('.nav-link').on('click', function(event) {
-        if (this.hash !== "") {
-            event.preventDefault();
-            var hash = this.hash;
-
-            $('html, body').animate({
-                scrollTop: $(hash).offset().top
-            }, 800, function(){
-                window.location.hash = hash;
-            });
-        }
-    });
-    */
 });
 
 
